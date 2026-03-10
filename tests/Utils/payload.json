@@ -1,0 +1,92 @@
+{
+  "login": {
+    "url": "https://api.rdocs.io/api/v1/auth/apikey",
+    "sendurl": "https://api.rdocs.io/api/v1/docs/send?html=false",
+    "apiID": "MwBFAEUAQwBFAEQARQBGA",
+    "apiKey": "RS0MX3QABD41",
+    "adminEmail": "Testseptrs@test.com"
+  },
+  "payloads": [
+  {
+    "name": "Xerox L1 RPD",
+    "senderAddress": "xerox_test1@mailinator.com",
+    "documentOptions": {
+      "Recipients": [
+        { "Email": "raviteja.re@yahoo.com" },
+        { "Email": "raviteja.ga@rpostlabs.com" }
+      ],
+      "subject": "Xerox L1",
+      "enabled": true,
+      "openRecord": true,
+      "geolocation": true,
+      "verifyCode": true,
+      "readerIp": true,
+      "readerEmail": false,
+      "readTimes": true,
+      "readTiming": true,
+      "distRestriction": false,
+      "domains": "",
+      "maxReads": 50,
+      "steganography": true,
+      "timestamp": true,
+      "print": true,
+      "sidenote": "Do not share or reply to this email",
+      "allowResponsesTo": ""
+    }
+  },
+  {
+    "name": "Xerox L2 RPD",
+    "senderAddress": "xerox_test1@mailinator.com",
+    "documentOptions": {
+      "Recipients": [
+        { "Email": "raviteja.re@yahoo.com"},
+      { "Email": "raviteja.ga@rpostlabs.com"}],
+      "subject":"Xerox L2",
+      "enabled":true,
+      "openRecord":true,
+      "geolocation":true,
+      "verifyCode":true,
+      "readerIp":true,
+      "readerEmail":true,
+      "readTimes":true,
+      "readTiming":true,
+      "distRestriction":false,
+      "domains":"",
+      "maxReads":50,
+      "steganography":true,
+      "timestamp":true,
+      "print":true,
+      "sidenote":"Do not share or reply to this email",
+      "allowResponsesTo":"raviteja.ga@rpostlabs.com",
+      "proofOfSending":false,
+      "readNotification":false}
+    },
+  {
+    "name": "Xerox L3 RPD",
+    "senderAddress": "xerox_test1@mailinator.com",
+    "documentOptions": {
+      "Recipients": [
+        { "Email": "raviteja.re@yahoo.com"},
+      { "Email": "raviteja.ga@rpostlabs.com"}],
+      "subject":"Xerox L3",
+      "enabled":true,
+      "openRecord":true,
+      "geolocation":true,
+      "verifyCode":true,
+      "readerIp":true,
+      "readerEmail":true,
+      "readTimes":true,
+      "readTiming":true,
+      "distRestriction":true,
+      "domains":"",
+      "maxReads":50,
+      "steganography":true,
+      "timestamp":true,
+      "print":true,
+      "sidenote":"Do not share or reply to this email",
+      "allowResponsesTo":"raviteja.ga@rpostlabs.com",
+      "proofOfSending":false,
+      "readNotification":false}
+    }
+]
+}
