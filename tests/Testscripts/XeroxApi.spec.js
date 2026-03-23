@@ -38,7 +38,7 @@ test.describe('Daily Activity', () => {
     })
     expect(sendRPD.status()).toBe(200)     
     }
-})
+}) 
 
 test('Corporate Site', async () => {
    const { page } = await launchBrowser();
