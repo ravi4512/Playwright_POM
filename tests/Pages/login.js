@@ -11,7 +11,7 @@ export class LoginPage {
     this.pswd = page.locator("//input[@id='user_password']");
     this.submitButton = page.locator("//button[@id='modal-submit']");
     this.submitButton1 = page.locator("(//button[@type='submit'])[1]");
-    this.rdocs = page.locator("(//a[@target='_blank']//button[1])[2]");
+    this.rdocs = page.locator("(//*[@class='pull-left ng-star-inserted'])[2]");
     this.send = page.locator("(//*[@name='Send'])[1]");
     // SSO specific locators
     this.ssoButton = page.locator("//span[text()='Single Sign-On (SSO)']");

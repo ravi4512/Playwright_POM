@@ -15,7 +15,7 @@ test('Performance test', async () => {
       await login.prodSSOLogin();
 
   // 5KB - 5 Pages
-  /*for (let i = 1; i <= 3; i++) {
+  for (let i = 1; i <= 3; i++) {
     console.log(`******** Metrics for 5 KB - 5 Pages document - iteration  ${i} *******`);
     await performance.performance("../../Files/Demo.pdf", "5KB - 5 pages");
   }
@@ -48,7 +48,7 @@ test('Performance test', async () => {
   for (let i = 1; i <= 3; i++) {
     console.log(`******** Metrics for 15 MB - 154 Pages document - iteration  ${i}  *******`);
     await performance.performance("../../Files/15MB.pptx", "15MB - 154 pages");
-  }     */
+  }     
 
   // 20 MB - 218 Pages
   for (let i = 1; i <= 3; i++) {
